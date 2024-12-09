@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "TreasureIslandServiceKit",
+    name: "TreasureIslandSceneKit",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "TreasureIslandServiceKit",
-            targets: ["TreasureIslandServiceKit"]
+            name: "TreasureIslandSceneKit",
+            targets: ["TreasureIslandSceneKit"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "TreasureIslandServiceKit",
-            path: "./TreasureIslandServiceKit.xcframework"
+            name: "TreasureIslandSceneKit",
+            path: "./TreasureIslandSceneKit.xcframework"
         )
     ]
 )
