@@ -40,7 +40,7 @@ import _SwiftConcurrencyShims
   public func launchWithViewController(_ rootViewController: UIKit.UIViewController, completionHandler: @escaping (_ success: Swift.Bool) -> Swift.Void)
   public func launchNotification()
   public func launchNotificationSetting()
-  public func testLaunchWebContrator()
+  public func testLaunchWebContrator(filePath: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SceneHeaderModel {
